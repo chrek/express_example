@@ -1,0 +1,38 @@
+Alert from github:
+high severity security vulnerability detected in lodash < 4.17.13
+
+Steps taken to correct:
+1. Delete node_modules folder
+2. Delete package-lock.json file
+3. Run npm install
+4. push to remote
+
+D:\myProject
+λ cd D:\myProject\nodejsJSProjects\ExpressSite\express_example
+
+D:\myProject\nodejsJSProjects\ExpressSite\express_example (master -> origin)
+λ npm install
+
+> core-js@2.6.9 postinstall D:\myProject\nodejsJSProjects\ExpressSite\express_example\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 568 packages from 977 contributors and audited 12169 packages in 162.702s
+found 12 vulnerabilities (5 low, 2 moderate, 5 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+D:\myProject\nodejsJSProjects\ExpressSite\express_example (master -> origin)
+λ npm audit fix
++ express@4.17.1
++ serve-favicon@2.5.0
++ body-parser@1.19.0
+added 4 packages from 4 contributors, removed 18 packages and updated 23 packages in 16.459s
+fixed 12 of 12 vulnerabilities in 12169 scanned packages

@@ -6,10 +6,10 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.15.1",
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "express": "~4.13.4",
+    "express": "^4.17.1",
     "forwarded": "~0.1.2",
     "fresh": "~0.5.2",
     "mime": "~1.4.1",
@@ -17,7 +17,7 @@
     "negotiator": "~0.6.1",
     "npm": "^6.9.0",
     "pug": "^2.0.3",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {}
 }
