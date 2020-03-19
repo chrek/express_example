@@ -19,5 +19,8 @@
     "pug": "^2.0.3",
     "serve-favicon": "^2.5.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "acorn": "^5.7.4",
+    "minimist": "^1.2.2"
+  }
 }
