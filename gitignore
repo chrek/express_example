@@ -1,5 +1,7 @@
 node_modules/
 archive/
+/node_modules
+/archive
 build
 npm-debug.log
 .env
